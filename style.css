@@ -1,0 +1,82 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+    background-image: url("images/headershapmobil@2x.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.logo {
+    list-style-type: none;   
+}
+
+.logo a {
+    text-decoration: none;
+    padding-left: 25px;
+    font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 20px;
+  color: #6070ff;
+  font-family: 'Poppins', sans-serif;
+  margin-left: 5px;
+}
+
+.first {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    font-weight: 900;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+  padding: 15px;
+  padding-top: 100px;
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  padding: 15px;
+  font-family: 'Poppins', sans-serif;
+  position: static;
+  left: 24px;
+  top: 276px;
+  font-style: normal;
+  width: 320px;
+}
+
+.connect {
+    font-weight: 50;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  padding: 0px 15px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  margin-bottom: 12
+}
+
+.social {
+    display: flex;
+    list-style-type: none; 
+    margin-left: 15px;
+}
+
+.icons {
+    padding-right: 20px;
+}
