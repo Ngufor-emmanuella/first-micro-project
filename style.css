@@ -1,6 +1,6 @@
 * {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 body {
@@ -8,10 +8,9 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     width: auto;
-     height: 100%;
-     font-family: 'Poppins', sans-serif;
-     box-sizing: border-box;
-      background-color:rgb(240, 240, 240) ;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
 }
 
 .logo {
