@@ -1,27 +1,27 @@
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-image: url("images/headershapmobil@2x.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: auto;
-    height: 100%;
-    font-family: 'Poppins', sans-serif;
-    box-sizing: border-box;
-    overflow: scroll;
+  background-image: url("images/headershapmobil@2x.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  overflow: scroll;
 }
 
 .logo {
-    list-style-type: none;   
+  list-style-type: none;  
 }
 
 .logo a {
-    text-decoration: none;
-    padding-left: 25px;
-    font-style: normal;
+  text-decoration: none;
+  padding-left: 25px;
+  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 20px;
@@ -31,12 +31,12 @@ body {
 }
 
 .first {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .header {
-    font-weight: 900;
+  font-weight: 900;
   font-size: 40px;
   line-height: 52px;
   display: flex;
@@ -48,7 +48,7 @@ body {
 }
 
 p {
-    font-weight: 400;
+  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #344563;
@@ -62,7 +62,54 @@ p {
 }
 
 .connect {
-    font-weight: 50;
+  font-weight: 50;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  padding: 0 15px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  margin-bottom: 12;
+}
+
+.social {
+  display: flex;
+  list-style-type: none;
+  margin-left: 15px;
+}
+
+.icons {
+  padding-right: 20px;
+}
+
+.header {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+  padding: 15px;
+  padding-top: 100px;
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  padding: 15px;
+  font-family: 'Poppins', sans-serif;
+  position: static;
+  left: 24px;
+  top: 276px;
+  font-style: normal;
+  width: 320px;
+}
+
+.connect {
+  font-weight: 50;
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
@@ -70,58 +117,6 @@ p {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   margin-bottom: 12
-}
-
-.social {
-    display: flex;
-    list-style-type: none; 
-    margin-left: 15px;
-}
-
-.icons {
-    padding-right: 20px;
-}
-
-.first {
-  display: flex;
-  justify-content: space-between;
-}
-
-.header {
-  font-weight: 900;
-font-size: 40px;
-line-height: 52px;
-display: flex;
-align-items: center;
-color: #172b4d;
-padding: 15px;
-padding-top: 100px;
-font-family: 'Poppins', sans-serif;
-}
-
-p {
-  font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-color: #344563;
-padding: 15px;
-font-family: 'Poppins', sans-serif;
-position: static;
-left: 24px;
-top: 276px;
-font-style: normal;
-width: 320px;
-}
-
-.connect {
-  font-weight: 50;
-font-size: 16px;
-line-height: 24px;
-color: #7f8cff;
-padding: 0px 15px;
-font-family: 'Poppins', sans-serif;
-font-style: normal;
-margin-bottom: 12
 }
 
 .social {
@@ -264,9 +259,9 @@ button {
 .seven {
   background-image: url("images/Contactme.png");
   background-repeat: no-repeat;
-   background-size: cover;
-   height: 100%;
-   color: rgb(240, 240, 240); 
+  background-size: cover;
+  height: 100%;
+  color: rgb(240, 240, 240); 
 }
 
 .seven h1 {
