@@ -11,6 +11,7 @@ body {
     height: 100%;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
+    overflow: scroll;
 }
 
 .logo {
@@ -79,4 +80,279 @@ p {
 
 .icons {
     padding-right: 20px;
+}
+
+.first {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header {
+  font-weight: 900;
+font-size: 40px;
+line-height: 52px;
+display: flex;
+align-items: center;
+color: #172b4d;
+padding: 15px;
+padding-top: 100px;
+font-family: 'Poppins', sans-serif;
+}
+
+p {
+  font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #344563;
+padding: 15px;
+font-family: 'Poppins', sans-serif;
+position: static;
+left: 24px;
+top: 276px;
+font-style: normal;
+width: 320px;
+}
+
+.connect {
+  font-weight: 50;
+font-size: 16px;
+line-height: 24px;
+color: #7f8cff;
+padding: 0px 15px;
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+margin-bottom: 12
+}
+
+.social {
+  display: flex;
+  list-style-type: none; 
+  margin-left: 15px;
+}
+
+.icons {
+  padding-right: 20px;
+}
+
+.roll {
+  display: flex;
+}
+
+.roll li {
+  list-style-type: none;
+}
+
+.thirdos {
+  display: flex;
+}
+
+.thirdos li {
+  list-style-type: none;
+  border-radius: 8px;
+  padding: 2px 3px;
+  font-family: 'poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 10px;
+  color: #6070ff;
+  margin-bottom: 15px;
+  background-color: #ebebff;
+  margin-right: 10px;
+}
+
+button {
+  font-weight: 50;
+  font-size: 20px;
+  line-height: 20px;
+  color: #7f8cff;
+  padding: 10px 10px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-bottom: 30px;
+  padding: 10px 10px;
+  width: max-content;
+  align-items: center;
+  text-align: center;
+  color: #396df2;
+  border: #396df2 1px solid;
+}
+
+.bull:hover {
+  color: #EBEBFF;
+  background-color: #6070ff;
+  box-shadow: 0px 8px 16px
+  rgba(64, 83, 252, 0.24);
+}
+
+.bull:active {
+  background: #2230D2;
+  border-radius: 8px;
+}
+
+.second h1 {
+  padding: 10px 15px;
+  font-weight: 800;
+  font-size: xx-large;
+}
+
+.roll li {
+  padding: 5px 5px;
+}
+
+.thirdos li {
+  padding: 10px 15px;
+}
+
+.lang h2 {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 60;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+}
+
+.frame {
+  display: flex;
+  justify-content: space-between;
+}
+
+.frame h2 {
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  margin-left: 5%;
+}
+
+.pro {
+  list-style-type: none;
+}
+
+.js li {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  padding: 15px 0px;
+}
+
+.js img {
+  padding-right: 20px;
+}
+
+.fra {
+  list-style-type: none;
+}
+
+.fro li {
+  margin-left: 25px;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 10;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  padding: 10px 0px;
+  display: flex;
+  justify-content: space-between; 
+}
+
+.seven {
+  background-image: url("images/Contactme.png");
+  background-repeat: no-repeat;
+   background-size: cover;
+   height: 100%;
+   color: rgb(240, 240, 240); 
+}
+
+.seven h1 {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 52px;
+  font-family: 'Poppins', sans-serif;
+  padding: 10% 10%;
+  justify-content: center;
+  align-items: center;
+}
+
+.for {
+  list-style-type: none;
+}
+
+.for li {
+  padding: 3px 3px;
+  margin-left: 15px;
+}
+
+.for input {
+  width: 100%;
+  height: 15%;
+  padding: 10px 0px;
+  border-radius: 8px;
+  border: rgb(240, 240, 240) 1px; 
+}
+
+textarea {
+  width: 95%;
+  height: 100px;
+  padding: 20px 10px;
+  border-radius: 10px;
+
+}
+
+.bu {
+  margin-left: 10px;
+}
+
+.box1 {
+  justify-content: center;
+  align-items: center;
+  margin: 10% 10%;
+  padding-bottom: 10%;
+
+}
+
+.box1 p {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #EBEBFF;
+}
+
+.langu {
+  background-color: #f7f7f9;
+  padding: 5px;
+}
+
+.work-about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.work-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 30px;
+  background: rgb(245, 245, 245);
+}
+
+.work-container .second {
+  background: white;
+  margin: 15px;
+  border-radius: 15px;
+  border: 1px #dfe1e6 solid;
+}
+
+.second span {
+  display: flex;
+  justify-content: center;
+}
+
+.second span img {
+  padding-top: 15px;
 }
