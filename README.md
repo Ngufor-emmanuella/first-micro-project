@@ -1,5 +1,4 @@
-# Project Name 
-First-micro-project
+# First-micro-project
 > In this project i built a personal portfolio using css grid and flex box . no  complex coding was done here 
 
 ## Built With
@@ -14,7 +13,7 @@ First-micro-project
 
 
 ## Getting Started
-To get a local copy up and running follow these simple example steps.
+To get a local copy
 
 ### Prerequisites
 
