@@ -201,7 +201,6 @@ button {
 }
 
 .fro {
-  margin-left: 25px;
   line-height: 24px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -281,7 +280,7 @@ textarea {
 }
 
 .langu {
-  background-color: #ffffff;
+  background-color: #fff;
   padding: 5px;
 }
 
