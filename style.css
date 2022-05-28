@@ -35,12 +35,6 @@ body {
   justify-content: space-between;
 }
 
-.social {
-  display: flex;
-  list-style-type: none;
-  margin-left: 15px;
-}
-
 .icons {
   padding-right: 20px;
 }
@@ -76,20 +70,16 @@ p {
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
-  padding: 0px 15px;
+  padding: 0 15px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  margin-bottom: 12
+  margin-bottom: 12;
 }
 
 .social {
   display: flex;
-  list-style-type: none; 
+  list-style-type: none;
   margin-left: 15px;
-}
-
-.icons {
-  padding-right: 20px;
 }
 
 .roll {
@@ -131,23 +121,20 @@ button {
   margin-top: 5px;
   margin-left: 10px;
   margin-bottom: 30px;
-  padding: 10px 10px;
   width: max-content;
   align-items: center;
   text-align: center;
-  color: #396df2;
   border: #396df2 1px solid;
 }
 
 .bull:hover {
   color: #ebebff;
   background-color: #6070ff;
-  box-shadow: 0px 8px 16px
-  rgba(64, 83, 252, 0.24);
+  box-shadow: 0px 8px 16pxrgba(64,83,252,0.24);
 }
 
 .bull:active {
-  background: #2230D2;
+  background: #2230d2;
   border-radius: 8px;
 }
 
@@ -159,10 +146,6 @@ button {
 
 .roll li {
   padding: 5px 5px;
-}
-
-.thirdos li {
-  padding: 10px 15px;
 }
 
 .lang h2 {
@@ -183,7 +166,7 @@ button {
   margin-block-start: 0.83em;
   margin-block-end: 0.83em;
   margin-inline-start: 0px;
-  margin-inline-end: 0px;
+  margin-inline-end: 0;
   font-weight: bold;
   margin-left: 5%;
 }
@@ -196,7 +179,7 @@ button {
   display: flex;
   align-items: center;
   margin-left: 30px;
-  padding: 15px 0px;
+  padding: 15px 0;
 }
 
 .js img {
@@ -214,9 +197,9 @@ button {
   font-weight: 10;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  padding: 10px 0px;
+  padding: 10px 0;
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
 }
 
 .seven {
@@ -224,7 +207,7 @@ button {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
-  color: rgb(240, 240, 240); 
+  color: rgb(240, 240, 240);
 }
 
 .seven h1 {
@@ -249,9 +232,9 @@ button {
 .for input {
   width: 100%;
   height: 15%;
-  padding: 10px 0px;
+  padding: 10px 0;
   border-radius: 8px;
-  border: rgb(240, 240, 240) 1px; 
+  border: rgb(240, 240, 240) 1px;
 }
 
 textarea {
@@ -259,7 +242,6 @@ textarea {
   height: 100px;
   padding: 20px 10px;
   border-radius: 10px;
-
 }
 
 .bu {
@@ -271,7 +253,6 @@ textarea {
   align-items: center;
   margin: 10% 10%;
   padding-bottom: 10%;
-
 }
 
 .box1 p {
