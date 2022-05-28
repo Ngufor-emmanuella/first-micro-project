@@ -84,14 +84,17 @@ p {
 
 .roll {
   display: flex;
+  padding-left: 15px;
 }
 
 .roll li {
   list-style-type: none;
+  padding-right: 10px;
 }
 
 .thirdos {
   display: flex;
+  padding-left: 15px;
 }
 
 .thirdos li {
@@ -152,9 +155,17 @@ button {
   font-style: normal;
 }
 
+.lang {
+  width: 340px;
+  padding-bottom: 40px;
+  background-color: #f7f7f9;
+}
+
 .frame {
   display: flex;
+  align-items: center;
   justify-content: space-between;
+  padding-right: 50px;
 }
 
 .frame h2 {
@@ -163,7 +174,7 @@ button {
   margin-block-end: 0.83em;
   margin-inline-start: 0;
   margin-inline-end: 0;
-  font-weight: bold;
+  padding-bottom: 5px;
   margin-left: 5%;
 }
 
@@ -171,11 +182,14 @@ button {
   list-style-type: none;
 }
 
-.js li {
+.js {
   display: flex;
   align-items: center;
   margin-left: 30px;
-  padding: 15px 0;
+  padding: 5px;
+  background-color: #ebebff;
+  margin-bottom: 15px;
+  border-radius: 5px;
 }
 
 .js img {
@@ -186,16 +200,24 @@ button {
   list-style-type: none;
 }
 
-.fro li {
+.fro {
   margin-left: 25px;
-  font-size: 20px;
   line-height: 24px;
-  font-weight: 10;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   padding: 10px 0;
   display: flex;
   justify-content: space-between;
+  border-bottom: 1px solid grey;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  font-weight: bolder;
+  margin-left: 5%;
+  padding-bottom: 10px;
+  padding-right: 50px;
 }
 
 .seven {
@@ -259,7 +281,7 @@ textarea {
 }
 
 .langu {
-  background-color: #f7f7f9;
+  background-color: #ffffff;
   padding: 5px;
 }
 
