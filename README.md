@@ -1,7 +1,5 @@
-# Project Name 
-First-micro-project
-> In this project i built a personal portfolio using basic html and css no complex coding was done here 
-
+# My porfolio
+> In this project i built a personal portfolio using css grid and flex box . no  complex coding was done here 
 
 ## Built With
 
@@ -15,7 +13,7 @@ First-micro-project
 
 
 ## Getting Started
-To get a local copy up and running follow these simple example steps.
+To get a local copy
 
 ### Prerequisites
 
@@ -28,7 +26,6 @@ To get a local copy up and running follow these simple example steps.
 ### Run tests
 
 ### Deployment
-
 
 
 ## Authors
