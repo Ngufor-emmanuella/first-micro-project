@@ -19,6 +19,19 @@ body {
   background-color: rgb(240, 240, 240);
 }
 
+h1 {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+  padding: 15px;
+  padding-top: 100px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+}
+
 .head-cont h1 {
   margin-left: 20px;
   width: 500px;
@@ -35,19 +48,6 @@ body {
   text-decoration: none;
   padding: 20px 24px;
   background-color: white;
-}
-
-h1 {
-  font-weight: 900;
-  font-size: 40px;
-  line-height: 52px;
-  display: flex;
-  align-items: center;
-  color: #172b4d;
-  padding: 15px;
-  padding-top: 100px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
 }
 
 header .logo {
@@ -460,9 +460,8 @@ nav img {
   border: none;
 }
 
-
 /*
-@media screen and (min-width:700px) { 
+@media screen and (min-width:700px) {
   .nav .ham {
     display: none;
   }
@@ -540,7 +539,7 @@ nav img {
 }
 
 .my-text {
-  /* width: 50%; 
+  /* width: 50%;
   margin: 15px;
   width: auto;
   height: auto;
@@ -651,4 +650,5 @@ form .button {
 .fas {
   color: rgb(196, 165, 165);
 }
+
 }*/
