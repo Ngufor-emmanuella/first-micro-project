@@ -403,7 +403,7 @@ nav img {
   color: #fff;
 }
 
-.contactform1 h1 {
+.contactform1 h2 {
   padding-top: 15px;
   color: #fff;
   font-size: 40px;
@@ -411,6 +411,8 @@ nav img {
   line-height: 52px;
   justify-content: center;
   align-items: center;
+  margin-left: 18px;
+  text-transform: capitalize;
 }
 
 .contactform1 p {
