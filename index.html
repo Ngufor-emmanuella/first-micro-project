@@ -4,215 +4,229 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My first portfolio</title>
+    <title>Emmanuella Ngufor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
-<body>
-    <header>
-        <nav class="first">
-            <div class="logo">
-                <p><a href="#">My Logo</a></p>
-            </div>
-            <div class="menubar">
-                <img src="images/menu-icon.svg" alt="menu">
-            </div>
-        </nav>
-        <h1 class="header">I'm Emmanuella <br> Glad to see <br>You!</h1>
-    </header>
-    <main>
-        <section class="para">
-            <p>I'm a software developer! I can help you build a product, feature or website. Look through some 
-                of my work and <br> experience! if you like what you see and have a project you need coded,dont 
-                hestiate to contact me.
-            </p>
-            <div class="connect">
-                <h5>LET'S CONNECT</h5>
-            </div>
-            <nav>
-                <ul class="social">
-                    <li>
-                        <a class="icons" href="#"><img src="images/Vector.svg" alt="icons"></a></li>
-                        <li>
-                            <a class="icons" href="#"><img src="images/Vector(1).svg" alt="icons"></a>
-                        </li>
-                        <li>
-                            <a class="icons" href="#"><img src="images/Vector(2).svg" alt="icons"></a>
-                        </li>
-                        <li>
-                            <a class="icons" href="#"><img src="images/Vector(3).svg" alt="icons"></a>
-                        </li>
-                </ul>
+    <header class="header"> 
+        <a class="logo"href="#">My Logo</a>
+        <nav class="nav">
+            <img class="ham" src="images/menu-icon.svg" alt="menu">
+            <ul class="navbar">
+                <li><a class="navlinks" href="#">portfolio</a></li>
+                <li><a class="navlinks" href="#">about</a></li>
+                <li><a class="navlinks"href="#">contact</a></li>
             </nav>
-        </section>
-        <section class="work-about-container">
-            <section class="work-container">
-                <section class="second">
-                    <span><img src="images/SnapshootPortfolio.png" alt="lady pic"></span>
-                    <h1>Tonic</h1>
-                    <nav class="round">
-                        <ul class="roll">
-                            <li>CANOPY</li>
-                            <li>  
-                            <img src="images/Counter.png" alt="circle">
-                        </li>
-                            <li>Back End Dev</li>
-                            <li> 
-                            <img src="images/Counter(2).png" alt="circle">
-                        </li>
-                            <li>2015</li>
-                        </ul>
-                    </nav>
-                    <p> A daily selection of privately personalized reads: no accounts or sign-ups required.</p>
-                    <nav class="third">
-                        <ul class="thirdos">
-                            <li>html</li>
-                            <li>css</li>
-                            <li>javascript</li>
-                        </ul>
-                    </nav>
-                    <div> 
-                    <button class="bull" type="submit">See Project</button>
-                    </div> 
-                </section>
+    </header>
+
+    <section class="body">
+        <div class="head-cont">
+             <h1>I'm Emmanuella <br> glad to see  you!</h1>
+
+        <p class="desc">I'm a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don't hestiate to contact me.</p>
+
+        <h2>LET'S CONNECT</h2>
+
+        <ul class="social">
+            <li>
+                <a class="social" href="#"><img src="images/Vector.svg" alt="icons"></a>
+            </li>
+            <li>
+                <a class="social" href="#"><img src="images/Linkedin icon.svg" alt="icons"></a>
+            </li>
+            <li>
+                <a  class="social" href="#"><img src="images/Vector(1).svg" alt="icons"></a>
+            </li>            <li>
+                <a  class="social" href="#"><img src="images/Vector(2).svg" alt="icons"></a>
+            </li>            <li>
+                <a  class="social" href="#"><img src="images/Vector(3).svg" alt="icons"></a>
+            </li>            <li>
+            </li>
+        </ul>
+        </div>
+        
+    </section>
+
+    <section class="project-container">
+        <div class="card-box">
+        <div class="project">  
+            <div class="my-img"> 
+        <img class="mobile-image" src="images/SnapshootPortfolio.png" alt="picture identity of a lady">
+        </div>
+        <div class="my-text">
+        <h2>Tonic</h2>
+        <ol>
+            <li>CANOPY</li>
+            <li><img src="images/Counter.png" alt="counter"></li>
+            <li>Back End Dev</li>
+            <li><img src="images/Counter(2).png" alt="counter"></li>
+            <li>2015</li>
+            </ol>
+        <p>A daily selection of privately<br>
+             personalised reads: no accouts or <br>
+              sign-ups required. </p><br>
+    <ul>
+        <li>html</li>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+        <li>css</li>
+        <li>javascrpt</li>
+        </ul>
+        <button class="active button" type="button"> See Project</button>
+    </div>
+    </div>
+
     
-                <section class="second">
-                    <span><img src="images/SnapshootPortfolio(1).png" alt="lady pic"></span>
-                    <h1>Multi-Post <br>Stories </h1>
-                    <nav class="round">
-                        <ul class="roll">
-                            <li>CANOPY</li>
-                            <li>  
-                            <img src="images/Counter.png" alt="circle">
-                        </li>
-                            <li>Back End Dev</li>
-                            <li>  
-                            <img src="images/Counter(2).png" alt="circle">
-                        </li>
-                            <li>2015</li>
-                        </ul>
-                    </nav>
-                    <p> A daily selection of privately personalized reads: no accounts or sign-ups required.</p>
-                    <nav class="third">
-                        <ul class="thirdos">
-                            <li>html</li>
-                            <li>css</li>
-                            <li>javascript</li>
-                        </ul>
-                    </nav>
-                    <div> 
-                    <button class="bull" type="submit">See Project</button>
-                    </div> 
-                </section>
-    
-                <section class="second">
-                    <span><img src="images/SnapshootPortfolio(2).png" alt="lady pic"></span>
-                    <h1>Tonic</h1>
-                    <nav class="round">
-                        <ul class="roll">
-                            <li>CANOPY</li>
-                            <li>  
-                            <img src="images/Counter.png" alt="circle">
-                        </li>
-                            <li>Back End Dev</li>
-                            <li>  
-                            <img src="images/Counter(2).png" alt="circle">
-                        </li>
-                            <li>2015</li>
-                        </ul>
-                    </nav>
-                    <p> A daily selection of privately personalized reads: no accounts or sign-ups required.</p>
-                    <nav class="third">
-                        <ul class="thirdos">
-                            <li>html</li>
-                            <li>css</li>
-                            <li>javascript</li>
-                        </ul>
-                    </nav>
-                    <div> 
-                    <button class="bull" type="submit">See Project</button>
+    <div class="project">
+        <div class="my-img">
+        <img class="mobile-image" src="images/SnapshootPortfolio(1).png" alt="picture identity of a lady">
+        </div>
+        <div class="my-text">
+        <h2>Multi-Post<br>Stories</h2>       
+        <ol>   
+        <li>CANOPY</li>
+        <li><img src="images/Counter.png" alt="counter"></li>
+            <li>Back End Dev</li>
+            <li><img src="images/Counter(2).png" alt="counter"></li>
+            <li>2015</li>
+        </ol>
+
+        <p>A daily selection of privately<br>
+            personalised reads: no accounts or <br>
+            sign-ups required.</p><br>
+            <ul>
+                <li>html</li>
+                <li>css</li>
+                <li>javascrpt</li>
+                 </ul>
+                 <button type="button" class="button">See Project</button>
+            </div>
+        </div>
+
+        <div class="project">
+            <div class="my-img"> 
+        <img class="mobile-image" src="images/SnapshootPortfolio(2).png" alt="picture identity of a lady">
+        </div>
+        <div class="my-text">
+        <h2>Tonic</h2>
+
+        <ol class="cop">
+            <li>CANOPY</li>
+            <li><img src="images/Counter.png" alt="counter"></li>
+                <li>Back End Dev</li>
+                <li><img src="images/Counter(2).png" alt="counter"></li>
+                <li>2015</li>
+                </ol>
+                <p>A daily selection of privately<br>
+                personalised reads: no accounts or <br>
+                sign-ups required.</p><br>
+                <ul>
+                    <li>html</li>
+                    <li>css</li>
+                    <li>javascrpt</li>
+                    </ul>
+                    <button type="button" class="button">See Project</button>
+            </div>
+            </div>
+
+            <div class="project">
+                <div class="my-img"> 
+                <img class="mobile-image" src="images/Snapshootportfolio(3).png" alt="contact card of a proffessional printer">
+            </div>
+            <div class="my-text">
+                <h2 class="bebe3">Multi-Post<br>Stories</h2>
+                <ol>
+                    <li>CANOPY</li>
+                    <li><img src="images/Counter.png" alt="counter"></li>
+                        <li>Back End Dev</li>
+                        <li><img src="images/Counter(2).png" alt="counter"></li>
+                        <li>2015</li>
+                </ol>
+
+                <p>A daily selection of privately<br>
+                personalised reads: no accounts or <br>
+                sign-ups required.</p><br>
+                <ul>
+                    <li>html</li>
+                    <li>css</li>
+                    <li>javascrpt</li>
+                </ul>
+                   <button type="button" class="button">See Project</button>
                 </div>
-                </section>
-    
-                <section class="second">
-                    <span><img src="images/Snapshootportfolio(3).png" alt="lady pic"></span>
-                    <h1>Multi-post <br> Stories</h1>
-                    <nav class="round">
-                        <ul class="roll">
-                            <li>CANOPY</li>
-                            <li> 
-                            <img src="images/Counter.png" alt="circle">
-                        </li>
-                            <li>Back End Dev</li>
-                            <li>  
-                            <img src="images/Counter(2).png" alt="circle">
-                        </li>
-                            <li>2015</li>
-                        </ul>
-                    </nav>
-                    <p> A daily selection of privately personalized reads: no accounts or sign-ups required.</p>
-                    <nav class="third">
-                        <ul class="thirdos">
-                            <li class="tri">html</li>
-                            <li class="tro">css</li>
-                            <li class="tru">javascript</li>
-                        </ul>
-                    </nav>
-                    <div> 
-                    <button class="bull" type="submit">See Project</button>
-                </div>
-                </section>
-            </section>
-            <section class="second">
-                <h1>About <br> Myself</h1>
-                <p> I'm a software developer! I can help you build a product, feature or website. Look through some 
-                    of my work and <br> experience! if you like what you see and have a project you need coded,dont 
-                    hestiate to contact me.</p>
-                    <div class="connect">
-                        <h5>LET'S CONNECT</h5>
-                    </div>
-                    <nav>
-                        <ul class="social">
-                            <li>
-                                <a class="icons" href="#"><img src="images/Vector(2).svg" alt="icons"></a></li>
-                                <li>
-                                    <a class="icons" href="#"><img src="images/Linkedinicon.png" alt="icons"></a>
-                                </li>
-                                <li>
-                                    <a class="icons" href="#"><img src="images/Vector(3).svg" alt="icons"></a>
-                                </li>
-                                <li>
-                                    <a class="icons" href="#"><img src="images/Vector.svg" alt="icons"></a>
-                                </li>
-                                <li>
-                                    <a class="icons" href="#"><img src="images/Vector(1).svg" alt="icons"></a>
-                                </li>
-                        </ul>
-                    </nav>
-                    <div> 
-                        <button class="bull" type="submit">Get my resume</button> 
-                    </div>
+            </div>
             </section>
 
-            <section class="lang">
-                    <div class="langu"> 
-                    <div class="frame"><h2>Languages</h2><i class="fas fa-angle-down"></i></div>
-                    <div class="program">
-                        <ul class="pro">
-                            <li class="js"><img src="images/Ellipsejs.png" alt="icons"> javascript</li>
-                            <li class="js"><img src="images/Ellipsehtml.png" alt="icons"> HTML</li>
-                            <li class="js"><img src="images/Ellipsecss.png" alt="icons">CSS</li>
-                    </ul>
-                    <ul class="fra">
-                        <li class="fro"><h2>Frameworks </h2><i class="fas fa-angle-right"></i></li>
-                        <li class="fro"><h2>Skills </h2><i class="fas fa-angle-right"></i></li>
-                    </ul>
+
+            <section class="about-container">             
+                <div class="about">
+                 <h2>About<br>Myself</h2>
+                <p> Hello i'm a software developer! I can help <br>you build a product, feature or website <br>look through some of my work and <br> experience! if you like what you see and <br> have a project you need coded, don't <br> hestiate to contact me.
+                    <h3>LET'S CONNECT</h3>
+                    <ul class="icons">
+                    <li>
+                        <a href="#"><img src="images/Vector.svg" alt="icons"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/Linkedinicon.png" alt="icons"></a>
+                    </li>            
+                    <li>
+                        <a href="#"><img src="images/Vector(1).svg" alt="icons"></a>
+                    </li>            
+                    <li>
+                        <a href="#"><img src="images/Vector(2).svg" alt="icons"></a>
+                    </li>            
+                    <li>
+                        <a href="#"><img src="images/Vector(3).svg" alt="icons"></a>
+                    </li>
+                    </ul> 
+
+                    <button type="button" class="button">Get my resume</button>
                 </div>
-                </div>
-            </section>
-        </section> 
-     </main>
-    </body>
-     </html>
-     
+                    <div class="last">
+                        <ul class="skills">
+                            <li>
+                                <div class="flex1"><h2>Languages</h2> <i class="fas fa-angle-down"></i></div>
+                                <ul class="lang">
+                                    <li><div class="tech-skills-detail"><img src="images/Ellipsejs.png" alt="Javascript">
+                                        <p>Javascript</p>
+                                      </div>
+                                    </li>
+                                     <li>
+                                    <div class="tech-skills-detail">
+                                      <img src="images/Ellipsehtml.png" alt="HTML">
+                                      <p>HTML</p>
+                                    </div>
+                                 </li>
+                            
+                                <li>
+                                  <div class="tech-skills-detail">
+                                     <img src="images/Ellipsecss.png" alt="CSS">
+                                     <p>CSS</p></div>
+                                </li>
+                                </ul>
+                            </li>
+                            <li class="ok"><div class="flex1"><h2>Frameworks</h2> <i class="fas fa-angle-right"></i></div></li>
+                            <li class="ok"><div class="flex1"><h2>Skills</h2> <i class="fas fa-angle-right"></i></div></li>
+    
+                        </ul>
+    
+                    </div>
+                </section>
+                                <div class="flex-container"> 
+                <section class="contactform1">
+                    <h2>Contact me</h2>
+                    <p>If you have an application you are interested in developing, a feature that you need built or a 
+                        project that needs coding. I'd love to help with it </p>
+                        <nav>
+                        <form action="https://formspree.io/f/xrgjovwd" method="post">
+                            <input type="text" id="name" placeholder="Yeramias" maxlength="30" required>
+                            <input type="email" id="mail" name="email address" placeholder="natajayarijl4@gmail.com" required>
+                            <textarea id="msg" rows="7" name="user-message" placeholder="write your message here" maxlength="500" required></textarea>
+                            <button class="button" type="submit">Get It Touch </button>
+                        </form>
+                    </nav>
+                </section>
+            </div>
+            </body>
+    </html>

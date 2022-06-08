@@ -1,5 +1,5 @@
 # My porfolio
-> In this project i built a personal portfolio using css grid and flex box . no  complex coding was done here 
+> In this project i built a personal portfolio adding a contact form  . no  complex coding was done here 
 
 ## Built With
 
