@@ -468,32 +468,36 @@ nav img {
   border: none;
 }
 
-
-@media screen and (min-width:768px) {
-  .nav .ham {
-    display: none;
-  }
-
-  .nav .navbar {
-    display: flex;
-    gap: 20px;
+@media screen and (min-width: 768px) {
+.nav .ham {
+  display: none;
 }
+
+.nav .navbar {
+  display: flex;
+  gap: 20px;
+}
+
 .navlinks {
   text-decoration: none;
   text-transform: capitalize;
 }
 
- .body{
-   background-image: url("images/Header-new.png");
-   border-bottom-left-radius: 100px;
- }
+.body {
+  background-image: url("images/Header-new.png");
+  border-bottom-left-radius: 100px;
+}
+
 .body .desc {
   width: 60%;
-  
 }
 
 .head-cont {
   margin-left: 40px;
+}
+
+h1 {
+  padding-left: 60px;
 }
 
 .body h1 {
@@ -504,20 +508,13 @@ nav img {
   margin-left: 20px;
 }
 
-h1 {
-   padding-left: 60px;
-}
-
 .mobile-image {
  height: auto;
  width: 100%;
 }
 
 .project {
-  /*
-  flex-direction: row;
-  
-  
+  /*flex-direction: row;
   box-sizing: border-box;
   border: 1px solid #dfe1e6;
   border-radius: 24px;
@@ -525,6 +522,7 @@ h1 {
   width: 70rem;
   height: 30rem;
   margin-top: 4rem;*/
+
   display: flex;
  justify-content: space-between;
  flex-direction: row;
@@ -538,6 +536,12 @@ h1 {
   padding: 50px;
   gap: 100px;
   margin: 50px;
+}
+
+.project:hover {
+  cursor: pointer;
+  border: 2px solid #a7aeff;
+  box-shadow: 1px 10px 16px rgb(64, 83, 252, 0.24);
 }
 
 .my-img {
@@ -560,14 +564,8 @@ h1 {
   height: 50%;
 }
 
-.project:hover {
-  cursor: pointer;
-  border: 2px solid #a7aeff;
-  box-shadow: 1px 10px 16px rgb(64, 83, 252, 0.24);
-}
-
 .show .ok {
-  display:flex;
+  display: flex;
 }
 
 .about-container {
@@ -598,9 +596,14 @@ h1 {
   margin-left: 80px;
 }
 
+form .button {
+  margin:20px 550px;
+}
+
 .about .button {
   margin-left: 80px;
 }
+
 .last {
   width: 50%;
   height: auto;
@@ -621,11 +624,12 @@ h1 {
   width: auto;
   height: auto;
 }
+
 .flex-container .contactform1 {
-  border-top-left-radius:  100px;
+  border-top-left-radius: 100px;
 }
 
-h2.contactform1 {
+h2 .contactform1 {
   text-align: center;
 }
 
@@ -657,10 +661,6 @@ h2.contactform1 {
   padding-left: 15px;
   border: none;
   margin-left: 300px;
-}
-
-form .button {
-  margin:20px 550px;
 }
 
 .fas {
