@@ -616,12 +616,12 @@ nav img {
     height: auto;
   }
 
-  .flex-container .contactform1 {
-    border-top-left-radius: 100px;
-  }
-
   h2 .contactform1 {
     text-align: center;
+  }
+
+  .flex-container .contactform1 {
+    border-top-left-radius: 100px;
   }
 
   .contactform1 p {
@@ -654,7 +654,6 @@ nav img {
   }
 
   .fas {
-    color: rgb(196, 165, 165)
+    color: rgb(196, 165, 165);
   }
 }
-  
