@@ -59,6 +59,7 @@ header .logo {
   color: #6070ff;
   font-family: 'Poppins', sans-serif;
   margin-left: 5px;
+  transform: rotate(45deg);
 }
 
 .body p {
@@ -241,6 +242,7 @@ button {
 button:hover {
   background-color: #6070ff;
   color: #fff;
+  transform: translate(10px, 10px);
 }
 
 .button {
@@ -259,6 +261,7 @@ button:hover {
   border: #396df2 1px solid;
   border-radius: 10px;
   padding: 9.2px;
+  transform: scale(1);
 }
 
 .button:active {
