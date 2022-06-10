@@ -1,5 +1,6 @@
 # My porfolio
-> In this project i built a personal portfolio adding a contact form  . no  complex coding was done here 
+> In this project i built a personal portfolio adding a contact form and making the project to 
+be responsive on both mobile and desktop version  . no  complex coding was done here 
 
 ## Built With
 
