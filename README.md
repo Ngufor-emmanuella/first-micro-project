@@ -1,6 +1,7 @@
 # My porfolio
 > In this project i built a personal portfolio adding a contact form and making the project to 
-be responsive on both mobile and desktop version  . no  complex coding was done here 
+be responsive on both mobile and desktop version  . no  complex coding was done here .here is a link 
+<a href="https://ngufor-emmanuella.github.io/first-micro-project">to the online version of my portfolio</a>
 
 ## Built With
 
