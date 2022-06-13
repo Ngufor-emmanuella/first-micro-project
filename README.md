@@ -8,8 +8,7 @@ be responsive on both mobile and desktop version. no complex coding was done her
 - Linters
 
 ## Live Demo (if available)
-
-[here is a link to the online version of my portfolio](https://ngufor-emmanuella.github.io/first-micro-project)
+(https://ngufor-emmanuella.github.io/first-micro-project)
 
 ## Getting Started
 To get a local copy
