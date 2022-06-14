@@ -1,7 +1,6 @@
 # My porfolio
-> In this project i built a personal portfolio adding a contact form and making the project to 
-be responsive on both mobile and desktop version  . no  complex coding was done here 
-
+> In this project i built a personal portfolio adding a contact form and making the project to
+be responsive on both mobile and desktop version. no complex coding was done here .
 ## Built With
 
 - HTML
@@ -9,9 +8,7 @@ be responsive on both mobile and desktop version  . no  complex coding was done 
 - Linters
 
 ## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
+(https://ngufor-emmanuella.github.io/first-micro-project)
 
 ## Getting Started
 To get a local copy
