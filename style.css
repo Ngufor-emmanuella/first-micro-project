@@ -230,7 +230,8 @@ header .logo {
 }
 
 .project ul li {
-  background: #ebebff;
+  background: #ffa500;
+  color: #000;
   border-radius: 8px;
   padding: 4px 12px;
 }
@@ -559,6 +560,8 @@ nav img {
 
   .show .ok {
     display: flex;
+    background-color: #ffa500;
+    color: #000;
   }
 
   .about-container {
