@@ -11,6 +11,59 @@ ul li {
   display: none;
 }
 
+.nav3 {
+  display: flex;
+  flex-direction: column;
+  background-color: #6070ff;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  opacity: 0.8;
+  z-index: 1;
+}
+
+nav img {
+  position: absolute;
+  float: right;
+  right: 20px;
+}
+
+.nav3 img {
+  height: 20px;
+  width: 20px;
+}
+
+.sixty {
+  padding-top: 25px;
+  margin-left: 440px;
+}
+
+.navigation {
+  list-style-type: none;
+  padding-top: 45px;
+}
+
+.navigation li {
+  margin-bottom: 31px;
+}
+
+.navlink2 {
+  text-decoration: none;
+  font-family: 'poppins', sans-serif;
+  font-style: normal;
+  font-weight: 490;
+  font-size: 32px;
+  line-height: 44px;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  margin-left: 35px;
+}
+
+.hide {
+  display: none;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
@@ -115,8 +168,6 @@ header .logo {
   grid-template-columns: 1fr;
   margin: 20px;
   gap: 50px;
-
-  /* margin-top: 100px; */
 }
 
 .project {
@@ -377,12 +428,6 @@ button:hover {
   margin-bottom: 10px;
 }
 
-nav img {
-  position: absolute;
-  float: right;
-  right: 20px;
-}
-
 .tech-skills-detail img {
   margin-right: 20px;
 }
@@ -440,7 +485,6 @@ nav img {
 
 .contactform1 form textarea {
   width: 99%;
-  font-weight: 400px;
   font-size: 17px;
   line-height: 20px;
   border-radius: 8px;
@@ -448,7 +492,6 @@ nav img {
   padding-top: 25px;
   padding-left: 15px;
   border: none;
-  margin-left: 0 5px;
 }
 
 .contactform1 input {
@@ -463,12 +506,15 @@ nav img {
 .contactform1 form input {
   width: 100%;
   padding-bottom: 25px;
-  font-weight: 400px;
   font-size: 17px;
   line-height: 20px;
   border-radius: 8px;
   margin-top: 15px;
   border: none;
+}
+
+.blur {
+  filter: blur(5px);
 }
 
 @media screen and (min-width: 768px) {
@@ -484,6 +530,10 @@ nav img {
   .navlinks {
     text-decoration: none;
     text-transform: capitalize;
+  }
+
+  .nav3 {
+    display: none;
   }
 
   .body {
@@ -637,7 +687,6 @@ nav img {
   .contactform1 form input {
     width: 50%;
     padding-bottom: 25px;
-    font-weight: 400px;
     font-size: 17px;
     line-height: 20px;
     border-radius: 0;
@@ -647,7 +696,6 @@ nav img {
 
   .contactform1 form textarea {
     width: 50%;
-    font-weight: 400px;
     font-size: 17px;
     line-height: 20px;
     border-radius: 0;
