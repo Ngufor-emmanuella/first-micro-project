@@ -1,6 +1,6 @@
 # My porfolio
 > In this project i built a personal portfolio adding a contact form and making the project to
-be responsive on both mobile and desktop version. Also i added linters or javascript and a javascript file 
+be responsive on both mobile and desktop version. Also i added linters for javascript and a javascript file 
 where i made my mobile menu to popup no complex coding was done here .
 ## Built With
 
