@@ -18,14 +18,13 @@ markx.addEventListener('click', () => {
   document.querySelector('.logo').classList.remove('blur');
 });
 
-const links = document.querySelectorAll('.navlink2')
+const links = document.querySelectorAll('.navlink2');
 
 links.forEach((link) => {
   link.addEventListener('click', () => {
-  div.classList.add('hide');
-  ham.classList.remove('hide');
-  document.querySelector('.body').classList.remove('blur');
-  document.querySelector('.logo').classList.remove('blur');
-  })
-})
-
+    div.classList.add('hide');
+    ham.classList.remove('hide');
+    document.querySelector('.body').classList.remove('blur');
+    document.querySelector('.logo').classList.remove('blur');
+  });
+});
