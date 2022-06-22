@@ -3,15 +3,13 @@
   padding: 0;
 }
 
-
 ul li {
   list-style-type: none;
 }
 
 .navbar {
-  display: none;     
+  display: none;
 }
-
 
 .nav3 {
   display: flex;
@@ -20,7 +18,13 @@ ul li {
   height: 100vh;
   width: 100%;
   position: absolute;
-  opacity: .8;
+  opacity: 0.8;
+}
+
+nav img {
+  position: absolute;
+  float: right;
+  right: 20px;
 }
 
 .nav3 img {
@@ -44,7 +48,7 @@ ul li {
 
 .navlink2 {
   text-decoration: none;
-  font-family: 'poppins';
+  font-family: 'poppins' sans-serif;
   font-style: normal;
   font-weight: 490;
   font-size: 32px;
@@ -423,12 +427,6 @@ button:hover {
   margin-bottom: 10px;
 }
 
-nav img {
-  position: absolute;
-  float: right;
-  right: 20px;
-}
-
 .tech-skills-detail img {
   margin-right: 20px;
 }
@@ -486,7 +484,6 @@ nav img {
 
 .contactform1 form textarea {
   width: 99%;
-  font-weight: 400px;
   font-size: 17px;
   line-height: 20px;
   border-radius: 8px;
@@ -494,7 +491,6 @@ nav img {
   padding-top: 25px;
   padding-left: 15px;
   border: none;
-  margin-left: 0 5px;
 }
 
 .contactform1 input {
@@ -509,7 +505,6 @@ nav img {
 .contactform1 form input {
   width: 100%;
   padding-bottom: 25px;
-  font-weight: 400px;
   font-size: 17px;
   line-height: 20px;
   border-radius: 8px;
@@ -521,7 +516,6 @@ nav img {
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
 }
-
 
 @media screen and (min-width: 768px) {
   .nav .ham {
@@ -692,7 +686,6 @@ nav img {
   .contactform1 form input {
     width: 50%;
     padding-bottom: 25px;
-    font-weight: 400px;
     font-size: 17px;
     line-height: 20px;
     border-radius: 0;
@@ -702,7 +695,6 @@ nav img {
 
   .contactform1 form textarea {
     width: 50%;
-    font-weight: 400px;
     font-size: 17px;
     line-height: 20px;
     border-radius: 0;
