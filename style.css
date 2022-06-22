@@ -48,7 +48,7 @@ nav img {
 
 .navlink2 {
   text-decoration: none;
-  font-family: 'poppins' sans-serif;
+  font-family: 'poppins', sans-serif;
   font-style: normal;
   font-weight: 490;
   font-size: 32px;
@@ -531,6 +531,7 @@ button:hover {
     text-decoration: none;
     text-transform: capitalize;
   }
+
   .nav3 {
     display: none;
   }
