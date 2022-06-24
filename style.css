@@ -262,17 +262,15 @@ header .logo {
 .project1 {
   position: fixed;
   top: 0;
-  left: 0;
   bottom: 0;
   right: 0;
   margin: 1rem 2rem 1rem 4rem;
   background-color: #fff;
   height: 713px;
   width: 343px;
-  left: calc(50%-343PX/2);
+  left: calc(50% - 343px / 2);
   border-radius: 16px;
   border: 1px solid #dfe1e6;
-  
 }
 
 .project1 p {
@@ -741,7 +739,7 @@ button:hover {
     width: 1156px;
     height: 610px;
     border-radius: 16px;
-    border: 1px solid #dfe1e6; 
+    border: 1px solid #dfe1e6;
   }
 
   .ok1 {
