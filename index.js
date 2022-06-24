@@ -92,9 +92,8 @@ project_buttons.forEach((button) => {
   button.addEventListener('click', () => {
     popup_container.innerHTML = `
     <div class="project1">
-    <img class="popupx" src="images/Icon.png" alt="an x">
+    <img class="popupx" src="images/Iconx-popup.png" alt="an x">
     <h2>Tonic</h2>
-    <img class="cancel" src="images/Icon.png" alt="cancel">
     <ul class="list1">
         <li>CANOPY</li>
         <li><img src="images/Counter.png" alt="counter"></li>
@@ -104,6 +103,9 @@ project_buttons.forEach((button) => {
     </ul>
     <div class="my-img1">
         <img class="mobile-image1" src="images/SnapshootPortfolio(1).png" alt="picture identity of a lady">
+    </div>
+    <div class="my-img2">
+    <img class="mobile-image2" src="images/Snapshoot-desktop4.png" alt="nature picture">
     </div>
     <p>
         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
