@@ -29,32 +29,32 @@ links.forEach((link) => {
   });
 });
 
-const projects =[
+const projects = [
   {
     title: 'tonic',
-    image: "images/face-crop-port.png",
+    image: 'images/face-crop-port.png',
     paragraph: 'A daily selection of privately personalised reads: no accounts or sign-ups required',
   },
   {
     title: 'multi-post stories',
-    image: "images/SnapshootPortfolio(1).png",
-    paragraph: 'A daily selection of privately personalised reads: no accounts or sign-ups required', 
+    image: 'images/SnapshootPortfolio(1).png',
+    paragraph: 'A daily selection of privately personalised reads: no accounts or sign-ups required',
   },
   {
     title: 'tonic',
-    image: "images/orange-crop2.png",
+    image: 'images/orange-crop2.png',
     paragraph: 'A daily selection of privately personalised reads: no accounts or sign-ups required',
   },
   {
     title: 'multi-post stories',
-    image: "images/Snapshootportfolio(3).png",
-    paragraph: 'A daily selection of privately personalised reads: no accounts or sign-ups required', 
-  }
+    image: 'images/Snapshootportfolio(3).png',
+    paragraph: 'A daily selection of privately personalised reads: no accounts or sign-ups required',
+  },
 ];
 
-const project_container = document.querySelector('.project-container')
+const projectContainer = document.querySelector('.project-container');
 
-const project_html = projects.map((project) => (
+const projectHtml = projects.map((project) => (
   `
   <div class="project">
   <div class="my-img">
@@ -82,11 +82,11 @@ const project_html = projects.map((project) => (
   `
 ));
 
-project_container.innerHTML = project_html;
+projectContainer.innerHTML = projectHtml;
 
-const project_buttons = document.querySelectorAll('.button')
+const projectButtons = document.querySelectorAll('.button');
 
-const popup_container = document.querySelector('.popup')
+const popup_Container = document.querySelector('.popup');
 
 project_buttons.forEach((button) => {
   button.addEventListener('click', () => {
@@ -128,10 +128,10 @@ project_buttons.forEach((button) => {
         </div>
     </div>
 </div>
-    `
-    const cancel = document.querySelector('.popupx')
+    `;
+    const cancel = document.querySelector('.popupx');
     cancel.addEventListener('click', () => {
-      popup_container.innerHTML = ''
+      popup_container.innerHTML = '';
     });
   });
-})
+});
