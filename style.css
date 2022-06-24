@@ -284,11 +284,10 @@ header .logo {
   display: flex;
   font-family: 'poppins', sans-serif;
   font-style: normal;
-  font-weight: 500px;
+  font-weight: 500;
   line-height: 20px;
   margin-left: 40px;
   padding-top: 2px;
-  
 }
 
 .show1 li {
@@ -296,7 +295,6 @@ header .logo {
   font-family: 'poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
-  line-height: 20px;
   font-size: 12px;
   line-height: 16px;
   color: #6070ff;
@@ -318,10 +316,14 @@ header .logo {
   font-family: 'poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
-  line-height: 20px;
   font-size: 15px;
   line-height: 16px;
   color: #3960f2;
+}
+
+.button1a {
+  background-color: #fff;
+  padding-bottom: 1px;
 }
 
 .house .button1a {
@@ -331,12 +333,6 @@ header .logo {
   border-radius: 8px;
   padding-right: 15px;
   margin-top: 5px;
-}
-
-.button1a {
-  background-color: #fff;
-  padding-bottom: 1px;
-  
 }
 
 .tech-skills li {
@@ -709,7 +705,7 @@ button:hover {
 
 .list1 li {
   padding-right: 10px;
-  color: #344563
+  color: #344563;
 }
 
 .my-img1 {
@@ -719,10 +715,11 @@ button:hover {
 .my-img2 {
   display: flex;
 }
+
 /* 
 .show1 .house {
   display: flex;
-  flex-direction: ;
+  flex-direction:
 } */
 
 .mobile-image2 {
@@ -744,7 +741,6 @@ button:hover {
   right: 0;
   margin: 1rem 2rem 1rem 4rem;
   background-color: #fff;
-
 }
 
 .ok1 {
@@ -769,7 +765,7 @@ button:hover {
   display: flex;
   font-family: 'poppins', sans-serif;
   font-style: normal;
-  font-weight: 500px;
+  font-weight: 500;
   line-height: 20px;
   margin-left: 280px;
   padding-top: 10px;
@@ -783,12 +779,11 @@ button:hover {
   font-family: 'poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
-  line-height: 20px;
   font-size: 12px;
   line-height: 16px;
   color: #6070ff;
   border-radius: 8px;
-  margin-right: 5px;
+ 
   background-color: #e4e4ff;
   margin-right: 15px;
 }
@@ -802,13 +797,17 @@ button:hover {
   font-family: 'poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
-  line-height: 20px;
   font-size: 15px;
   line-height: 16px;
   color: #3960f2;
   float: right;
   margin-top: -50px;
   margin-right: 280px;
+}
+
+.button1a {
+  background-color: #fff;
+  padding-bottom: 5px;
 }
 
 .house .button1a {
@@ -818,11 +817,6 @@ button:hover {
   border-radius: 8px;
   padding-right: 15px;
   margin-top: 5px;
-}
-
-.button1a {
-  background-color: #fff;
-  padding-bottom: 5px;
 }
 
   .project {
