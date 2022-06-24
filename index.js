@@ -86,11 +86,11 @@ projectContainer.innerHTML = projectHtml;
 
 const projectButtons = document.querySelectorAll('.button');
 
-const popup_Container = document.querySelector('.popup');
+const popupContainer = document.querySelector('.popup');
 
-project_buttons.forEach((button) => {
+projectButtons.forEach((button) => {
   button.addEventListener('click', () => {
-    popup_container.innerHTML = `
+    popupContainer.innerHTML = `
     <div class="project1">
     <img class="popupx" src="images/Iconx-popup.png" alt="an x">
     <h2>Tonic</h2>
@@ -131,7 +131,7 @@ project_buttons.forEach((button) => {
     `;
     const cancel = document.querySelector('.popupx');
     cancel.addEventListener('click', () => {
-      popup_container.innerHTML = '';
+      popupContainer.innerHTML = '';
     });
   });
 });
