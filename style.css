@@ -676,7 +676,7 @@ button:hover {
     width: 100%;
   }
 
- .popupx {
+  .popupx {
     display: flex;
     margin-left: 1100px;
     margin-top: 30px;
@@ -709,11 +709,11 @@ button:hover {
   }
 
   .my-img1 {
-   display: none;
+    display: none;
   }
 
   .my-img2 {
-   display: flex;
+    display: flex;
   }
 
   .mobile-image2 {
@@ -738,7 +738,7 @@ button:hover {
 
   .ok1 {
     display: flex;
- }
+  }
 
   .project1 p {
     font-family: 'poppins', sans-serif;
@@ -800,7 +800,7 @@ button:hover {
   .button1a {
     background-color: #fff;
     padding-bottom: 5px;
-}
+  }
 
   .house .button1a {
     color: #3960f2;
