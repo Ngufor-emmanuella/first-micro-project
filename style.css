@@ -231,8 +231,9 @@ header .logo {
 
 .popupx {
   display: flex;
-  margin-left: 350px;
-  margin-top: 20px;
+  margin-left: 300px;
+  margin-bottom: -30px;
+  margin-top: 30px;
 }
 
 .project1 h2 {
@@ -266,6 +267,12 @@ header .logo {
   right: 0;
   margin: 1rem 2rem 1rem 4rem;
   background-color: #fff;
+  height: 713px;
+  width: 343px;
+  left: calc(50%-343PX/2);
+  border-radius: 16px;
+  border: 1px solid #dfe1e6;
+  
 }
 
 .project1 p {
@@ -311,7 +318,7 @@ header .logo {
   display: flex;
   gap: 60px;
   margin-left: 25px;
-  margin-bottom: 5px;
+  margin-top: 2px;
   padding-top: 2px;
   font-family: 'poppins', sans-serif;
   font-style: normal;
@@ -719,11 +726,8 @@ button:hover {
   .mobile-image2 {
     width: 100%;
     height: 400px;
-  }
-
-  .mobile-image1 {
-    height: 30%;
-    width: 90%;
+    margin-left: 24px;
+    margin-right: 24px;
   }
 
   .project1 {
@@ -734,6 +738,10 @@ button:hover {
     right: 0;
     margin: 1rem 2rem 1rem 4rem;
     background-color: #fff;
+    width: 1156px;
+    height: 610px;
+    border-radius: 16px;
+    border: 1px solid #dfe1e6; 
   }
 
   .ok1 {
@@ -750,7 +758,7 @@ button:hover {
     height: auto;
     margin: 0 auto;
     font-size: 15px;
-    margin-left: 10px;
+    margin-left: 24px;
     padding-top: 5px;
   }
 
