@@ -148,3 +148,19 @@ projectButtons.forEach((button) => {
     });
   });
 });
+const myName = document.getElementById('name');
+
+const message = document.getElementById('msg');
+
+form.addEventListener('input', () => {
+  const inputs = {
+    myName:myName.value,
+    myEmail:email.value,
+    myMessage:message.value,
+  };
+  localStorage.setItem('inputs', JSON.stringify(inputs));
+});
+const fetchData = JSON.parse(localStorage.getItem('inputs'));
+myName.value=fetchData.myName;
+email.value = fetchData.myEmail;
+message.value = fetchData.myMessage;
