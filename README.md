@@ -1,7 +1,7 @@
 # My porfolio
 > In this project i built a personal portfolio adding a contact form and making the project to
 be responsive on both mobile and desktop version. Also i added linters for javascript and a javascript file 
-where i made my mobile menu to popup and nav bars taking users to different sections of the page .
+where i made my mobile menu to popup and nav bars taking users to different sections of the page .Also in javascript i created an array where i put all the HTML elements in an object, when clicked it displays a detailed popup menu
 ## Built With
 
 - HTML
