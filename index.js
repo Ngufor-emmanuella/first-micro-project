@@ -9,12 +9,12 @@ const email = document.querySelector('#mail');
 const errorElement = document.getElementById('error');
 
 form.addEventListener('submit', (e) => {
-  if(email.value !==
-    email.value.toLowerCase()) {
-      e.preventDefault();
-      errorElement.style.display = 'block';
-      errorElement.textContent = 'invalid email, please use lowerCase';
-    }
+  if (email.value
+    !== email.value.toLowerCase()) {
+    e.preventDefault();
+    errorElement.style.display = 'block';
+    errorElement.textContent = 'invalid email, please use lowerCase';
+  }
 });
 
 ham.addEventListener('click', () => {
