@@ -2,6 +2,21 @@ const ham = document.getElementById('ham');
 
 const div = document.querySelector('#nav3');
 
+const form = document.querySelector('#form');
+
+const email = document.querySelector('#mail');
+
+const errorElement = document.getElementById('error');
+
+form.addEventListener('submit', (e) => {
+  if (email.value
+    !== email.value.toLowerCase()) {
+    e.preventDefault();
+    errorElement.style.display = 'block';
+    errorElement.textContent = 'invalid email, please use lowerCase';
+  }
+});
+
 ham.addEventListener('click', () => {
   div.classList.remove('hide');
   ham.classList.add('hide');
