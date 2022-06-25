@@ -76,7 +76,7 @@ const projectHtml = projects.map((project) => (
           <li class="ok">Ruby on rails</li>
           <li>javascrpt</li>
       </ul>
-      <button class="active button" type="button" id=${projects.indexOf(projects)}> See Project</button>
+      <button class="active button" type="button" id=${projects.indexOf(project)}> See Project</button>
   </div>
 </div>
   `
