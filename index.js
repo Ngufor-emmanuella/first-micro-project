@@ -76,7 +76,7 @@ const projectHtml = projects.map((project) => (
           <li class="ok">Ruby on rails</li>
           <li>javascrpt</li>
       </ul>
-      <button class="active button" type="button"> See Project</button>
+      <button class="active button" type="button" id=${projects.indexOf(projects)}> See Project</button>
   </div>
 </div>
   `
@@ -90,10 +90,11 @@ const popupContainer = document.querySelector('.popup');
 
 projectButtons.forEach((button) => {
   button.addEventListener('click', () => {
+    const currentProject = projects[button.id]
     popupContainer.innerHTML = `
     <div class="project1">
     <img class="popupx" src="images/Iconx-popup.png" alt="an x">
-    <h2>Tonic</h2>
+    <h2>${currentProject.title}</h2>
     <ul class="list1">
         <li>CANOPY</li>
         <li><img src="images/Counter.png" alt="counter"></li>
@@ -102,16 +103,13 @@ projectButtons.forEach((button) => {
         <li>2015</li>
     </ul>
     <div class="my-img1">
-        <img class="mobile-image1" src="images/SnapshootPortfolio(1).png" alt="picture identity of a lady">
+        <img class="mobile-image1" src=${currentProject.image} alt="picture identity of a lady">
     </div>
     <div class="my-img2">
-    <img class="mobile-image2" src="images/Snapshoot-desktop4.png" alt="nature picture">
+    <img class="mobile-image2" src=${currentProject.image} alt="nature picture">
     </div>
     <p>
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-        industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book.It has survived not only five centuries, but also
-        the leap into electronic typesetting, remaining essent</p>
+    ${currentProject.paragraph}</p>
     <ul class="show1">
         <li>html</li>
         <li>css</li>
