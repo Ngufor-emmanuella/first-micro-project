@@ -90,7 +90,7 @@ const popupContainer = document.querySelector('.popup');
 
 projectButtons.forEach((button) => {
   button.addEventListener('click', () => {
-    const currentProject = projects[button.id]
+    const currentProject = projects[button.id];
     popupContainer.innerHTML = `
     <div class="project1">
     <img class="popupx" src="images/Iconx-popup.png" alt="an x">
